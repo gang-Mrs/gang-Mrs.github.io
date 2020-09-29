@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://15515202783.github.io/guestbook/index.html</loc>
+    
+    <lastmod>2020-09-29T09:07:43.490Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://15515202783.github.io/2017/04/10/nvm/</loc>
+    
+    <lastmod>2020-09-29T09:01:56.967Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://15515202783.github.io/tags/index.html</loc>
+    
+    <lastmod>2020-09-29T09:01:55.200Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://15515202783.github.io/about/index.html</loc>
+    
+    <lastmod>2020-09-28T15:20:48.462Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://15515202783.github.io/offline.html</loc>
+    
+    <lastmod>2020-09-28T15:06:21.791Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://15515202783.github.io/weblog/index.html</loc>
     
     <lastmod>2020-09-28T14:01:51.120Z</lastmod>
@@ -9,30 +44,9 @@
   </url>
   
   <url>
-    <loc>https://15515202783.github.io/tags/index.html</loc>
-    
-    <lastmod>2020-09-28T14:01:51.118Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://15515202783.github.io/reward/index.html</loc>
     
     <lastmod>2020-09-28T14:01:51.112Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/offline.html</loc>
-    
-    <lastmod>2020-09-28T14:01:51.110Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/guestbook/index.html</loc>
-    
-    <lastmod>2020-09-28T14:01:50.850Z</lastmod>
     
   </url>
   
@@ -51,30 +65,9 @@
   </url>
   
   <url>
-    <loc>https://15515202783.github.io/about/index.html</loc>
-    
-    <lastmod>2020-09-28T14:01:50.844Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://15515202783.github.io/2018/07/20/yarn/</loc>
     
     <lastmod>2020-09-28T14:01:50.842Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2016/12/24/why-introversion-like-alone/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.841Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2017/02/14/why-we-dropped-zepto/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.841Z</lastmod>
     
   </url>
   
@@ -121,20 +114,6 @@
   </url>
   
   <url>
-    <loc>https://15515202783.github.io/2019/02/05/travis-ci/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2017/06/08/service-worker/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.834Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://15515202783.github.io/2016/10/23/sass/</loc>
     
     <lastmod>2020-09-28T14:01:50.833Z</lastmod>
@@ -159,62 +138,6 @@
     <loc>https://15515202783.github.io/2017/05/20/npm-two/</loc>
     
     <lastmod>2020-09-28T14:01:50.830Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2017/02/28/memory-leak/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.829Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2019/10/10/mid-age/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.829Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2018/06/01/js-this/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.828Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2017/02/18/js-memory-management-and-gc/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.827Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2019/05/01/js-exception-handing/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.826Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2020/06/10/husky-lint-staged/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.825Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2017/01/18/html5shiv/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.825Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2016/10/16/how-it-feels-to-learn-javascript-in-2016/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.824Z</lastmod>
     
   </url>
   
@@ -247,14 +170,14 @@
   </url>
   
   <url>
-    <loc>https://15515202783.github.io/2017/07/15/hexo-next-five/</loc>
+    <loc>https://15515202783.github.io/2016/12/15/hexo-next-four/</loc>
     
     <lastmod>2020-09-28T14:01:50.818Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://15515202783.github.io/2016/12/15/hexo-next-four/</loc>
+    <loc>https://15515202783.github.io/2017/07/15/hexo-next-five/</loc>
     
     <lastmod>2020-09-28T14:01:50.818Z</lastmod>
     
@@ -275,37 +198,9 @@
   </url>
   
   <url>
-    <loc>https://15515202783.github.io/2016/09/25/essay-20160925/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.815Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://15515202783.github.io/2017/06/25/css-hack/</loc>
     
     <lastmod>2020-09-28T14:01:50.814Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2017/03/07/commonjs/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.813Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2016/11/18/china-javascript-environment/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.812Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://15515202783.github.io/2017/03/20/amd-cmd/</loc>
-    
-    <lastmod>2020-09-28T14:01:50.811Z</lastmod>
     
   </url>
   

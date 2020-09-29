@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="JavaScript," />
+  <meta name="keywords" content="nvm," />
 
 
 
@@ -86,22 +86,19 @@
 
 
 
-<meta name="description" content="Respond.js 让不支持 css3 Media Query 的浏览器包括 IE6-IE8 等其他浏览器支持媒体查询。
-
-Respond.js 是一个快速、轻量的 polyfill，用于为 IE6-8 以及其它不支持 CSS3 Media Queries 的浏览器提供媒体查询的 min-width 和 max-width特性，实现响应式网页设计（Responsive Web Design）。">
+<meta name="description" content="nvm使用 nvm 在电脑中切换不同版本的 nodejs
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061# windows中nvm的下载地址# https://github.com/coreybutler/nvm-win">
 <meta property="og:type" content="article">
-<meta property="og:title" content="polyfill — Respond.js">
-<meta property="og:url" content="https://15515202783.github.io/2017/02/11/respond-js/index.html">
+<meta property="og:title" content="nvm 命令全面介绍">
+<meta property="og:url" content="https://15515202783.github.io/2017/04/10/nvm/index.html">
 <meta property="og:site_name" content="Live My Life">
-<meta property="og:description" content="Respond.js 让不支持 css3 Media Query 的浏览器包括 IE6-IE8 等其他浏览器支持媒体查询。
-
-Respond.js 是一个快速、轻量的 polyfill，用于为 IE6-8 以及其它不支持 CSS3 Media Queries 的浏览器提供媒体查询的 min-width 和 max-width特性，实现响应式网页设计（Responsive Web Design）。">
-<meta property="og:updated_time" content="2020-09-28T14:01:50.832Z">
+<meta property="og:description" content="nvm使用 nvm 在电脑中切换不同版本的 nodejs
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061# windows中nvm的下载地址# https://github.com/coreybutler/nvm-win">
+<meta property="og:updated_time" content="2020-09-29T09:01:56.967Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="polyfill — Respond.js">
-<meta name="twitter:description" content="Respond.js 让不支持 css3 Media Query 的浏览器包括 IE6-IE8 等其他浏览器支持媒体查询。
-
-Respond.js 是一个快速、轻量的 polyfill，用于为 IE6-8 以及其它不支持 CSS3 Media Queries 的浏览器提供媒体查询的 min-width 和 max-width特性，实现响应式网页设计（Responsive Web Design）。">
+<meta name="twitter:title" content="nvm 命令全面介绍">
+<meta name="twitter:description" content="nvm使用 nvm 在电脑中切换不同版本的 nodejs
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061# windows中nvm的下载地址# https://github.com/coreybutler/nvm-win">
 
 
 
@@ -122,12 +119,12 @@ Respond.js 是一个快速、轻量的 polyfill，用于为 IE6-8 以及其它�
 
 
 
-  <link rel="canonical" href="https://15515202783.github.io/2017/02/11/respond-js/"/>
+  <link rel="canonical" href="https://15515202783.github.io/2017/04/10/nvm/"/>
 
 
 <!-- 网页加载条 -->
 <script src="/js/src/pace.min.js"></script>
-  <title> polyfill — Respond.js | Live My Life </title>
+  <title> nvm 命令全面介绍 | Live My Life </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -517,7 +514,7 @@ for (var L = 0; L < C.length; L++) {
             
             
               
-                polyfill — Respond.js
+                nvm 命令全面介绍
               
             
           </h1>
@@ -529,8 +526,8 @@ for (var L = 0; L < C.length; L++) {
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-02-11T23:25:24+08:00" content="2017-02-11">
-              2017-02-11
+            <time itemprop="dateCreated" datetime="2017-04-10T03:25:24+08:00" content="2017-04-10">
+              2017-04-10
             </time>
           </span>
 
@@ -579,58 +576,9 @@ for (var L = 0; L < C.length; L++) {
       
 
       
-        <blockquote>
-<p>Respond.js 让不支持 css3 Media Query 的浏览器包括 IE6-IE8 等其他浏览器支持媒体查询。</p>
-</blockquote>
-<p>Respond.js 是一个快速、轻量的 polyfill，用于为 IE6-8 以及其它不支持 CSS3 Media Queries 的浏览器提供媒体查询的 <code>min-width</code> 和 <code>max-width</code>特性，实现响应式网页设计（Responsive Web Design）。</p>
-<a id="more"></a>
-<p>响应式布局，理想状态是，对 <code>PC/移动</code> 各种终端进行响应。媒体查询的支持程度是 IE9+ 以及其他现代的浏览器，但是 IE8 在市场当中仍然占据了比较大量的市场份额，使我们不得不进行 IE 低端浏览器的考虑。那么如何在 IE6~8 浏览器中兼容响应式布局呢？<br>这里我们需要借助这样一个文件：<code>respond.js</code>.</p>
-<p>文件下载地址：<a href="respond.js">respond.js</a>.</p>
-<p>自己在阅读了官方文档之后，进行了一系列测试。友情提示各位朋友，关于 <strong>respond.js</strong> 的使用，有一些需要注意的地方，一旦不注意，在 IE6-8 中就无法显示出来。</p>
-<h1 id="插件原理"><a href="#插件原理" class="headerlink" title="插件原理"></a>插件原理</h1><p>既然要实现响应式网页，那么就需要用到媒体查询，媒体查询的核心是 <code>min-width</code> 和 <code>max-width</code>,而 IE8 以下以及一些其它的浏览器不支持这两个属性，<strong>respond.js</strong> 是怎么做的呢？</p>
-<ul>
-<li>将 <code>&lt;head&gt;</code> 中所有外部引入的CSS文件路径取出来存储到一个数组当中；</li>
-<li>遍历数组，并一个个发送 AJAX 请求；</li>
-<li>AJAX 回调后，分析 response 中的 media query 的 <code>min-width</code> 和 <code>max-width</code> 语法（注意，仅仅支持 <code>min-width</code> 和 <code>max-width</code> ），分析出 viewport 变化区间对应相应的 css 块；</li>
-<li>页面初始化时和 <code>window.resize</code> 时，根据当前 viewport 使用相应的 css 块。</li>
-</ul>
-<h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><p>考虑到 IE9 是支持 CSS3 的，所以直接在 HTML 页面的 <code>&lt;head&gt;</code> 标签中添加脚本引入即可：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"style.css"</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!--[if lt IE 9]&gt;</span></span><br><span class="line"><span class="comment">      &lt;script src="js/respond.js"&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="comment">    &lt;![endif]--&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>讲道理，我们是应该将 js 文件放在 html 文件的最后，但是 repond.js 文件，我还是建议你将它放在 <code>&lt;head&gt;</code> 中，并且放在 css 文件的后面。越早引入越好，在 IE 下面看到页面闪屏的概率就越低，因为最初 css 会先渲染出来，如果 respond.js 加载得很后面，这时重新根据 media query 解析出来的 css 会再改变一次页面的布局等，所以看起来有闪屏的现象.</p>
-<h1 id="核心结论"><a href="#核心结论" class="headerlink" title="核心结论"></a>核心结论</h1><p>那么此时，就可以根据基本的实现思路，得到一些书写代码时要注意的地方：</p>
-<ul>
-<li>需要启动本地服务器（localhost），不能使用普通本地的url地址（file://开头）；</li>
-<li>需要外部引入 CSS 文件，将 CSS 样式书写在 style 中是无效的；</li>
-<li>由于 respond 插件是查找 CSS 文件，再进行处理，所以 respond.js 文件一定要放置在 CSS 文件的后面；</li>
-<li>另外，虽然把 respond.js 放置在 <code>&lt;head&gt;</code> 里还是在 <code>&lt;body&gt;</code> 后面都能够实现，但是建议放置在 <code>&lt;head&gt;</code> 中（具体原因在下面的文档提示中有提到）；</li>
-<li>最好不要为 CSS 设置 utf-8 的编码，使用默认（原因详见下面的文档提示部分）</li>
-</ul>
-<h1 id="文档提示"><a href="#文档提示" class="headerlink" title="文档提示"></a>文档提示</h1><p>在官方文档当中的一些提示：</p>
-<ul>
-<li>越早的引入 respond.js 文件，也就越可能避免 IE 下出现的闪屏。</li>
-<li>不支持嵌套的媒体查询。</li>
-<li>utf-8 的字符编码对 respond.js 文件的运行有影响。<br>官方API原文：<br><code>if CSS files are encoded in UTF-8 with Byte-Order-Mark, they will not work with Respond.js in IE7 or IE8.</code><br>基本含义就是：<strong>utf-8 格式的 CSS 文件字符编码会对插件造成影响</strong><br>但是在我使用 IE6-8 进行测试的时候，都能够正常显示（无论是在 css 文件中增加 charset 设置还是在 link 标签中增加 charset 设置）。因此，并不是太清楚这个位置 bug 的含义。</li>
-<li>跨域可能会出现闪屏（还没有测试，具体情况不详）</li>
-</ul>
-<h1 id="NOTE"><a href="#NOTE" class="headerlink" title="NOTE"></a>NOTE</h1><ol>
-<li><p>Respond.js 和 跨域（cross-domain） CSS 的问题<br>如果Respond.js和CSS文件被放在不同的域名或子域名下面（例如，使用CDN）时需要一些额外的设置。请参考Respond.js文档获取详细信息。</p>
-</li>
-<li><p>Internet Explorer 8 与 box-sizing<br>IE8 不能完全支持 <code>box-sizing: border-box;</code> 与 <code>min-width</code>、<code>max-width</code>、<code>min-height</code> 或 <code>max-height</code> 一同使用。由于此原因，从 Bootstrap v3.0.1 版本开始，我们不再为 <code>.container</code> 使用 <code>max-width</code>。</p>
-</li>
-<li><p>IE兼容模式<br>Bootstrap 不支持 IE 的兼容模式。为了让 IE 浏览器运行最新的渲染模式，建议将此 标签加入到你的页面中：<br><code>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge&quot;&gt;</code><br>此标签被加入到所有文档页面和案例页面中，以确保在每个被支持的 IE 浏览器中保持最好的页面展现效果。</p>
-</li>
-<li><p>Respond.js 和 @import<br>Respond.js 不支持通过 @import 引入的 CSS 文件。例如，Drupal 一般被配置为通过 @import 引入 CSS 文件，Respond.js 对其将无法起到作用。</p>
-</li>
-</ol>
-<h1 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h1><p>从 respond.js 的工作原理可以知道，它将 <code>&lt;head&gt;</code> 中所有外部引入的 CSS 文件路径取出来存储到一个数组当中；然后遍历数组，并一个个发送 AJAX 请求；可以看出这里必须依赖 ajax 请求 css 路径才能得到 css 文件中的 media query 的内容，那 ajax 的跨域问题就要解决了；</p>
-<p>由于我们的静态资源都是要放在 cdn 的，responds.js 也给出了跨域方法，即引入代理页面：</p>
-<p>//把 cross-domain/respond-proxy.html 放到cdn上<br>//把 cross-domain/respond.proxy.gif 放到当前域服务器上</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- Respond.js proxy on external server --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">"http://externalcdn.com/respond-proxy.html"</span> <span class="attr">id</span>=<span class="string">"respond-proxy"</span> <span class="attr">rel</span>=<span class="string">"respond-proxy"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- Respond.js redirect location on local server --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">"/path/to/respond.proxy.gif"</span> <span class="attr">id</span>=<span class="string">"respond-redirect"</span> <span class="attr">rel</span>=<span class="string">"respond-redirect"</span> /&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- Respond.js proxy script on local server --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"/path/to/respond.proxy.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id="其他的支持响应式布局的插件-css3-dediaqueries-js"><a href="#其他的支持响应式布局的插件-css3-dediaqueries-js" class="headerlink" title="其他的支持响应式布局的插件  css3-dediaqueries.js"></a>其他的支持响应式布局的插件  css3-dediaqueries.js</h1><p>css3-mediaqueries.js 支持几乎所有的 media query 的语法。会出现闪屏。并不是很推荐使用，虽然能够支持全部的 media queries,但 <code>min-width</code> 和 <code>max-width</code> 其实就可以满足我们对响应式布局的需要。</p>
-<h1 id="补充一点"><a href="#补充一点" class="headerlink" title="补充一点"></a>补充一点</h1><p>if CSS files are encoded in UTF-8 with Byte-Order-Mark,they will not work with Repond.js in IE7 or IE8.</p>
-<p>也就是说保存格式应该是 utf-8 无 BOM 格式，BOM 会影响程序对文档的处理，正常的 utf-8 文档应该没事。</p>
-<h1 id="Tips-1"><a href="#Tips-1" class="headerlink" title="Tips"></a>Tips</h1><p><strong>always link stylesheets or write inline CSS before js scripts.</strong></p>
-<p>Respond.js on Github： <a href="https://github.com/scottjehl/Respond" target="_blank" rel="external">https://github.com/scottjehl/Respond</a>.</p>
+        <h1 id="nvm"><a href="#nvm" class="headerlink" title="nvm"></a>nvm</h1><p>使用 nvm 在电脑中切换不同版本的 nodejs</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># windows中nvm的下载地址</span></span><br><span class="line"><span class="comment"># https://github.com/coreybutler/nvm-windows</span></span><br><span class="line">nvm list</span><br><span class="line">nvm install xxx <span class="comment"># 安装指定版本</span></span><br><span class="line">nvm use xxx <span class="comment"># 使用指定版本</span></span><br><span class="line">nvm ls-remote <span class="comment"># 列出远程服务器上所有的可用版本（非window用户）</span></span><br><span class="line">nvm ls available <span class="comment">#（window用户）</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># all commands</span></span><br><span class="line">nvm --<span class="built_in">help</span>                                Show this message</span><br><span class="line">nvm --version                             Print out the installed version of nvm</span><br><span class="line">nvm install [-s] &lt;version&gt;                Download and install a &lt;version&gt;, [-s] from <span class="built_in">source</span>. Uses .nvmrc <span class="keyword">if</span> available</span><br><span class="line">  --reinstall-packages-from=&lt;version&gt;     When installing, reinstall packages installed <span class="keyword">in</span> &lt;node|iojs|node version number&gt;</span><br><span class="line">  --lts                                   When installing, only select from LTS (long-term support) versions</span><br><span class="line">  --lts=&lt;LTS name&gt;                        When installing, only select from versions <span class="keyword">for</span> a specific LTS line</span><br><span class="line">  --skip-default-packages                 When installing, skip the default-packages file <span class="keyword">if</span> it exists</span><br><span class="line">  --latest-npm                            After installing, attempt to upgrade to the latest working npm on the given node version</span><br><span class="line">  --no-progress                           Disable the progress bar on any downloads</span><br><span class="line">nvm uninstall &lt;version&gt;                   Uninstall a version</span><br><span class="line">nvm uninstall --lts                       Uninstall using automatic LTS (long-term support) <span class="built_in">alias</span> `lts/*`, <span class="keyword">if</span> available.</span><br><span class="line">nvm uninstall --lts=&lt;LTS name&gt;            Uninstall using automatic <span class="built_in">alias</span> <span class="keyword">for</span> provided LTS line, <span class="keyword">if</span> available.</span><br><span class="line">nvm use [--silent] &lt;version&gt;              Modify PATH to use &lt;version&gt;. Uses .nvmrc <span class="keyword">if</span> available</span><br><span class="line">  --lts                                   Uses automatic LTS (long-term support) <span class="built_in">alias</span> `lts/*`, <span class="keyword">if</span> available.</span><br><span class="line">  --lts=&lt;LTS name&gt;                        Uses automatic <span class="built_in">alias</span> <span class="keyword">for</span> provided LTS line, <span class="keyword">if</span> available.</span><br><span class="line">nvm <span class="built_in">exec</span> [--silent] &lt;version&gt; [&lt;<span class="built_in">command</span>&gt;] Run &lt;<span class="built_in">command</span>&gt; on &lt;version&gt;. Uses .nvmrc <span class="keyword">if</span> available</span><br><span class="line">  --lts                                   Uses automatic LTS (long-term support) <span class="built_in">alias</span> `lts/*`, <span class="keyword">if</span> available.</span><br><span class="line">  --lts=&lt;LTS name&gt;                        Uses automatic <span class="built_in">alias</span> <span class="keyword">for</span> provided LTS line, <span class="keyword">if</span> available.</span><br><span class="line">nvm run [--silent] &lt;version&gt; [&lt;args&gt;]     Run `node` on &lt;version&gt; with &lt;args&gt; as arguments. Uses .nvmrc <span class="keyword">if</span> available</span><br><span class="line">  --lts                                   Uses automatic LTS (long-term support) <span class="built_in">alias</span> `lts/*`, <span class="keyword">if</span> available.</span><br><span class="line">  --lts=&lt;LTS name&gt;                        Uses automatic <span class="built_in">alias</span> <span class="keyword">for</span> provided LTS line, <span class="keyword">if</span> available.</span><br><span class="line">nvm current                               Display currently activated version of Node</span><br><span class="line">nvm ls [&lt;version&gt;]                        List installed versions, matching a given &lt;version&gt; <span class="keyword">if</span> provided</span><br><span class="line">  --no-colors                             Suppress colored output</span><br><span class="line">  --no-alias                              Suppress `nvm <span class="built_in">alias</span>` output</span><br><span class="line">nvm ls-remote [&lt;version&gt;]                 List remote versions available <span class="keyword">for</span> install, matching a given &lt;version&gt; <span class="keyword">if</span> provided</span><br><span class="line">  --lts                                   When listing, only show LTS (long-term support) versions</span><br><span class="line">  --lts=&lt;LTS name&gt;                        When listing, only show versions <span class="keyword">for</span> a specific LTS line</span><br><span class="line">  --no-colors                             Suppress colored output</span><br><span class="line">nvm version &lt;version&gt;                     Resolve the given description to a single <span class="built_in">local</span> version</span><br><span class="line">nvm version-remote &lt;version&gt;              Resolve the given description to a single remote version</span><br><span class="line">  --lts                                   When listing, only select from LTS (long-term support) versions</span><br><span class="line">  --lts=&lt;LTS name&gt;                        When listing, only select from versions <span class="keyword">for</span> a specific LTS line</span><br><span class="line">nvm deactivate                            Undo effects of `nvm` on current shell</span><br><span class="line">nvm <span class="built_in">alias</span> [&lt;pattern&gt;]                     Show all aliases beginning with &lt;pattern&gt;</span><br><span class="line">  --no-colors                             Suppress colored output</span><br><span class="line">nvm <span class="built_in">alias</span> &lt;name&gt; &lt;version&gt;                Set an <span class="built_in">alias</span> named &lt;name&gt; pointing to &lt;version&gt;</span><br><span class="line">nvm <span class="built_in">unalias</span> &lt;name&gt;                        Deletes the <span class="built_in">alias</span> named &lt;name&gt;</span><br><span class="line">nvm install-latest-npm                    Attempt to upgrade to the latest working `npm` on the current node version</span><br><span class="line">nvm reinstall-packages &lt;version&gt;          Reinstall global `npm` packages contained <span class="keyword">in</span> &lt;version&gt; to current version</span><br><span class="line">nvm unload                                Unload `nvm` from shell</span><br><span class="line">nvm <span class="built_in">which</span> [current | &lt;version&gt;]           Display path to installed node version. Uses .nvmrc <span class="keyword">if</span> available</span><br><span class="line">nvm cache dir                             Display path to the cache directory <span class="keyword">for</span> nvm</span><br><span class="line">nvm cache clear                           Empty cache directory <span class="keyword">for</span> nvm</span><br><span class="line"></span><br><span class="line"><span class="comment"># Example:</span></span><br><span class="line">  nvm install 8.0.0                     Install a specific version number</span><br><span class="line">  nvm use 8.0                           Use the latest available 8.0.x release</span><br><span class="line">  nvm run 6.10.3 app.js                 Run app.js using node 6.10.3</span><br><span class="line">  nvm <span class="built_in">exec</span> 4.8.3 node app.js            Run `node app.js` with the PATH pointing to node 4.8.3</span><br><span class="line">  nvm <span class="built_in">alias</span> default 8.1.0               Set default node version on a shell</span><br><span class="line">  nvm <span class="built_in">alias</span> default node                Always default to the latest available node version on a shell</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">brew install nvm <span class="comment"># install nvm</span></span><br><span class="line"><span class="comment"># 设置环境变量</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 把以下代码写入环境变量</span></span><br><span class="line"><span class="built_in">export</span> NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node <span class="comment"># nvm安装换源,</span></span><br><span class="line"></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npm.taobao.org <span class="comment"># 设置npm淘宝镜像源</span></span><br><span class="line">npm config <span class="built_in">set</span> sass_binary_site https://npm.taobao.org/mirrors/node-sass/ <span class="comment"># 设置node_sass安装路径</span></span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -681,7 +629,7 @@ for (var L = 0; L < C.length; L++) {
       
         <div class="post-tags">
           
-            <a href="/tags/JavaScript/" rel="tag"><i class="fa fa-tag"></i> JavaScript</a>
+            <a href="/tags/nvm/" rel="tag"><i class="fa fa-tag"></i> nvm</a>
           
         </div>
       
@@ -690,16 +638,16 @@ for (var L = 0; L < C.length; L++) {
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/12/15/hexo-next-four/" rel="next" title="Hexo-NexT搭建个人博客（四）">
-                <i class="fa fa-chevron-left"></i> Hexo-NexT搭建个人博客（四）
+              <a href="/2017/02/11/respond-js/" rel="next" title="polyfill — Respond.js">
+                <i class="fa fa-chevron-left"></i> polyfill — Respond.js
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/04/10/nvm/" rel="prev" title="nvm 命令全面介绍">
-                nvm 命令全面介绍 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/04/10/npm/" rel="prev" title="npm 全面介绍">
+                npm 全面介绍 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -894,7 +842,7 @@ for (var L = 0; L < C.length; L++) {
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#插件原理"><span class="nav-number">1.</span> <span class="nav-text">插件原理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#使用方法"><span class="nav-number">2.</span> <span class="nav-text">使用方法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#核心结论"><span class="nav-number">3.</span> <span class="nav-text">核心结论</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#文档提示"><span class="nav-number">4.</span> <span class="nav-text">文档提示</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NOTE"><span class="nav-number">5.</span> <span class="nav-text">NOTE</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Tips"><span class="nav-number">6.</span> <span class="nav-text">Tips</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#其他的支持响应式布局的插件-css3-dediaqueries-js"><span class="nav-number">7.</span> <span class="nav-text">其他的支持响应式布局的插件  css3-dediaqueries.js</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#补充一点"><span class="nav-number">8.</span> <span class="nav-text">补充一点</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Tips-1"><span class="nav-number">9.</span> <span class="nav-text">Tips</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#nvm"><span class="nav-number">1.</span> <span class="nav-text">nvm</span></a></li></ol></div>
             
           </div>
         </section>
