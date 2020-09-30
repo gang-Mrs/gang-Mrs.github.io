@@ -12,7 +12,7 @@
   <meta name="description" content="背景在 Node 生态系统中，依赖通常安装在项目的 node_modules 文件夹中。然而，这个文件的结构和实际依赖树可能有所区别，因为重复的依赖可以合并到一起。npm 客户端把依赖安装到 node_modules 目录的过程具有不确定性。这意味着当依赖的安装顺序不同时，node_modules 目录的结构可能会发生变化。这种差异可能会导致类似“我的电脑上可以运行，别的电脑上不行”的情况，并且通">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Yarn安装与使用详细介绍">
-<meta property="og:url" content="https://15515202783.github.io/2018/07/20/yarn/index.html">
+<meta property="og:url" content="https://gang-Mrs.github.io/2018/07/20/yarn/index.html">
 <meta property="og:site_name" content="Live My Life">
 <meta property="og:description" content="背景在 Node 生态系统中，依赖通常安装在项目的 node_modules 文件夹中。然而，这个文件的结构和实际依赖树可能有所区别，因为重复的依赖可以合并到一起。npm 客户端把依赖安装到 node_modules 目录的过程具有不确定性。这意味着当依赖的安装顺序不同时，node_modules 目录的结构可能会发生变化。这种差异可能会导致类似“我的电脑上可以运行，别的电脑上不行”的情况，并且通">
 <meta property="og:image" content="https://img-blog.csdn.net/20180824142908356?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NzZG5feXVkb25n/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
@@ -26,7 +26,7 @@
     <link rel="alternative" href="/atom.xml" title="Live My Life" type="application/atom+xml">
   
   
-    <link rel="icon" href="http://7xkj1z.com1.z0.glb.clouddn.com/head.jpg">
+    <link rel="icon" href="/favicon/favicon3.ico">
   
   <link rel="stylesheet" href="/css/style.css">
   
@@ -35,6 +35,10 @@
   <script src="//cdn.bootcss.com/require.js/2.3.2/require.min.js"></script>
   <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
 
+  
+      <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+<script>AV.initialize("your_app_id", "your_app_key");</script>
+<script src="/js/Counter.js"></script>
   
 </head>
 <body>
@@ -46,7 +50,7 @@
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
 			
-			<img lazy-src="http://7xkj1z.com1.z0.glb.clouddn.com/head.jpg" class="js-avatar">
+			<img lazy-src="/avatar/timg.jpg" class="js-avatar">
 			
 		</a>
 
@@ -92,6 +96,7 @@
 				</div>
 			</div>
 		
+		
 
 		<div class="switch-area">
 			<div class="switch-wrap">
@@ -102,6 +107,12 @@
 							<li><a href="/">主页</a></li>
 				        
 							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/tags">随笔</a></li>
+				        
+							<li><a href="/categories">标签</a></li>
+				        
+							<li><a href="/about">关于</a></li>
 				        
 						</ul>
 					</nav>
@@ -124,7 +135,39 @@
 				<section class="switch-part switch-part3">
 					<div id="js-friends">
 					
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="https://github.com/smackgg/hexo-theme-smackdown">smackdown</a>
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/">0</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/i">1</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/m">2</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/a">3</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/g">4</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/e">5</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/s">6</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/">7</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/e">8</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/r">9</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/w">10</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/e">11</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/n">12</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/.">13</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/p">14</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/n">15</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="/g">16</a>
 			        
 			        </div>
 				</section>
@@ -135,6 +178,16 @@
 		</div>
 	</header>				
 </div>
+<div style="position:absolute; top:15px; left:20px; width:85%"> 
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=260 height=86 src="//music.163.com/outchain/player?type=2&id=718765&auto=1&height=66"></iframe>
+</div>
+
+
+- 1、用 better-scroll 实现和原生有相同的滚动体验，以及上拉加载 & 下拉刷新
+
+你可以点击下面的二维码图片，或者手机扫码来体验。
+
+<a href="http://neveryu.github.io/my-example/bs-pullup-pulldown" style="width: 100px">![bs-pullup-pulldown](/images/qr-bs-pullup-pulldown.png)</a>
     </div>
     <div class="mid-col">
       <nav id="mobile-nav">
@@ -145,7 +198,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img lazy-src="http://7xkj1z.com1.z0.glb.clouddn.com/head.jpg" class="js-avatar">
+				<img lazy-src="/avatar/timg.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author">Love_gang</h1>
@@ -159,6 +212,12 @@
 					<li><a href="/">主页</a></li>
 		        
 					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/tags">随笔</a></li>
+		        
+					<li><a href="/categories">标签</a></li>
+		        
+					<li><a href="/about">关于</a></li>
 		        
 		        <div class="clearfix"></div>
 				</ul>
@@ -206,6 +265,16 @@
 	<a class="article-category-link" href="/categories/前端/">前端</a>
 	</div>
 
+
+        
+          
+<div class="counter-tag counter">
+    <span id="/2018/07/20/yarn/" class="leancloud_visitors post-title-link"
+          style="font-size: 12px" data-flag-title="Yarn安装与使用详细介绍">
+         &nbsp;
+        view
+    </span>
+</div>
 
         
         <div class="clearfix"></div>
@@ -299,18 +368,18 @@
     
 <nav id="article-nav">
   
-    <a href="/2018/10/15/hexo-next-six/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/10/23/sass/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">&lt;</strong>
       <div class="article-nav-title">
         
-          Hexo-NexT搭建个人博客（六）
+          Sass 教程
         
       </div>
     </a>
   
   
-    <a href="/2018/06/18/vue-prerender/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Vue 服务端渲染 or 预渲染</div>
+    <a href="/2018/05/01/vue-music/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">vue2.x 做一个音乐app</div>
       <strong class="article-nav-caption">&gt;</strong>
     </a>
   
@@ -320,7 +389,7 @@
 </article>
 
 
-<div class="ds-share share" data-thread-key="yarn" data-title="Yarn安装与使用详细介绍" data-url="https://15515202783.github.io/2018/07/20/yarn/"  data-images="http://7xkj1z.com1.z0.glb.clouddn.com/head.jpg" data-content="Yarn安装与使用详细介绍">
+<div class="ds-share share" data-thread-key="yarn" data-title="Yarn安装与使用详细介绍" data-url="https://gang-Mrs.github.io/2018/07/20/yarn/"  data-images="/avatar/timg.jpg" data-content="Yarn安装与使用详细介绍">
     <div class="ds-share-inline">
       <ul  class="ds-share-icons-16">
       	<li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
